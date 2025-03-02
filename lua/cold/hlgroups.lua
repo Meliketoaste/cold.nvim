@@ -462,21 +462,21 @@ function M.get(theme)
         },
 
         -- github.com/ibhagwan/fzf-lua
-        -- ['FzfLuaNormal'] = { bg = theme.fzf.normal.bg },
-        -- ['FzfLuaBorder'] = {
-        --     bg = theme.fzf.border.bg,
-        --     fg = theme.fzf.border.fg,
-        -- },
-        -- ['FzfLuaPreviewNormal'] = { link = 'Normal' },
-        -- ['FzfLuaPreviewBorder'] = {
-        --     bg = theme.fzf.preview.border.bg,
-        --     fg = theme.fzf.preview.border.fg,
-        -- },
-        -- ['FzfLuaPreviewTitle'] = {
-        --     bg = theme.fzf.preview.title.bg,
-        --     fg = theme.fzf.preview.title.fg,
-        -- },
-        --
+        ['FzfLuaNormal'] = { bg = theme.fzf.normal.bg },
+        ['FzfLuaBorder'] = {
+            -- bg = theme.fzf.border.bg,
+            fg = theme.fzf.border.fg,
+        },
+        ['FzfLuaPreviewNormal'] = { link = 'Normal' },
+        ['FzfLuaPreviewBorder'] = {
+            -- bg = theme.fzf.preview.border.bg,
+            fg = theme.fzf.preview.border.fg,
+        },
+        ['FzfLuaPreviewTitle'] = {
+            -- bg = theme.fzf.preview.title.bg,
+            fg = theme.fzf.preview.title.fg,
+        },
+
         -- github.com/nvim-telescope/telescope.nvim
         ['TelescopeNormal'] = { bg = theme.telescope.normal.bg },
         ['TelescopeBorder'] = {
