@@ -471,7 +471,7 @@ function M.get(theme)
 
         ['FzfLuaPreviewBorder'] = {
             -- bg = theme.fzf.preview.border.bg,
-            fg = '#ff0000',
+            fg = theme.fzf.border.fg,
         },
         ['FzfLuaPreviewTitle'] = {
             -- bg = theme.fzf.preview.title.bg,
