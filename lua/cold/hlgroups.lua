@@ -1,5 +1,6 @@
 local M = {}
 
+local palette = require 'cold.palette'
 --- @param theme ColdThemeDark | ColdThemeLight
 --- @return table<string, vim.api.keyset.highlight>
 function M.get(theme)
@@ -601,7 +602,7 @@ function M.get(theme)
         ['BlinkCmpKindOperator'] = { fg = theme.syntax.operator.fg },
         ['BlinkCmpKindProperty'] = { fg = theme.syntax.identifier.fg },
         ['BlinkCmpKindReference'] = { fg = theme.syntax.identifier.fg },
-        ['BlinkCmpKindSnippet'] = { fg = theme.syntax.identifier.fg },
+        ['BlinkCmpKindSnippet'] = { fg = palette.grey_03 },
         ['BlinkCmpKindStruct'] = { fg = theme.syntax.type.fg },
         ['BlinkCmpKindText'] = { fg = theme.syntax.string.fg },
         ['BlinkCmpKindTypedParameter'] = { fg = theme.syntax.type.fg },
