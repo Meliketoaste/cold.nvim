@@ -469,10 +469,10 @@ function M.get(theme)
         },
         -- ['FzfLuaPreviewNormal'] = { link = 'Normal' },
 
-        -- ['FzfLuaPreviewBorder'] = {
-        --     -- bg = theme.fzf.preview.border.bg,
-        --     fg = theme.fzf.preview.border.fg,
-        -- },
+        ['FzfLuaPreviewBorder'] = {
+            -- bg = theme.fzf.preview.border.bg,
+            fg = '#ff0000',
+        },
         ['FzfLuaPreviewTitle'] = {
             -- bg = theme.fzf.preview.title.bg,
             fg = theme.fzf.preview.title.fg,
