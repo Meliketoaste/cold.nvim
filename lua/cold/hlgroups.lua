@@ -601,7 +601,7 @@ function M.get(theme)
         ['BlinkCmpKindMethod'] = { fg = theme.syntax.function_.fg },
         ['BlinkCmpKindModule'] = { fg = theme.syntax.identifier.fg },
         ['BlinkCmpKindOperator'] = { fg = theme.syntax.operator.fg },
-        ['BlinkCmpKindProperty'] = { fg = palette.green_07 },
+        ['BlinkCmpKindProperty'] = { fg = palette.green_06 },
         ['BlinkCmpKindReference'] = { fg = theme.syntax.identifier.fg },
         ['BlinkCmpKindSnippet'] = { fg = palette.grey_03 },
         ['BlinkCmpKindStruct'] = { fg = theme.syntax.type.fg },
